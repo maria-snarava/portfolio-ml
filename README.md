@@ -38,4 +38,4 @@ My Computer Science degree from Belarusian State University provided me with a s
 - LinkedIn: [Maryia Snarava](https://www.linkedin.com/in/maryia-snarava/)
 - Email:snaravam@gmail.com
 
-I am looking for new challenges and collaboration. If you're seeking a backend developer who combines technical expertise with a passion for innovation, let's connect! Feel free to contact me via direct messages or by e-mail snaravam@gmail.com
+I am looking for new challenges and collaboration. If you're seeking a backend developer who combines technical expertise with a passion for innovation, let's connect! Feel free to contact me via direct messages or by e-mail.
