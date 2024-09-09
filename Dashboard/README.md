@@ -1,24 +1,25 @@
 # Dashboard for Sentimental analysis of Tweets about major NASDAQ-listed companies in 2019 year
 
+This project available on https://dashboard-tweets-analysis.streamlit.app/
 ## Project Overview
 
-This project is interactive dashboard, that uses a dataset [Tweets about the Top Companies from 2015 to 2020](https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/data), featuring tweets related to major NASDAQ-listed companies, that was posted between 01-01-2019 and 31-12-2019. Sentiment analysis was performed using the NLTK library, along with a financial dictionary to better capture the nuances of financial terms. Engagement metrics were computed based on the number of likes, retweets, and comments each tweet received. You can find the preprocessing steps and code on the project’s [GitHub repository](https://github.com/maria-snarava/portfolio-ml).
+This project is an interactive dashboard, that uses a dataset [Tweets about the Top Companies from 2015 to 2020](https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/data), featuring tweets related to major NASDAQ-listed companies, that was posted between 01-01-2019 and 31-12-2019. Sentiment analysis was performed using the NLTK library, along with a financial dictionary to better capture the nuances of financial terms. Engagement metrics were computed based on the number of likes, retweets, and comments each tweet received. You can find the preprocessing steps and code on the project’s [GitHub repository](https://github.com/maria-snarava/portfolio-ml).
 
 ## Data Source
 
-The dataset used in this project is sourced from Kaggle and contains tweets about top companies from 2015 to 2020 years. It contains over 4 million unique tweets with their information such as tweet id, author of the tweet, post date, the text body of the tweet, and the number of comments, likes, and retweets of tweets matched with the related company. In my project I used only 2019's year tweets.
+The dataset used in this project is sourced from Kaggle and contains tweets about top companies from 2015 to 2020 years. It contains over 4 million unique tweets with their information such as tweet ID, author of the tweet, post date, the text body of the tweet, and the number of comments, likes, and retweets of tweets matched with the related company. In my project, I used only 2019's year tweets.
 
 [Tweets about the Top Companies from 2015 to 2020](https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/data)
 
 ### Key Features
 - Number of tweets by company plot (Histogram, pie chart, timeline)
 - Engagement plot (Histogram, pie chart, timeline)
-- Detailed analysis for selected company:
+- Detailed analysis for a selected company:
 - Number of Tweets by Sentiment for selected company (Histogram, pie chart, timeline)
-- Number of tweets about apple by sentiment vs stock price for selected company
+- Number of tweets by sentiment vs stock price for selected company
 - Word cloud by sentiment for selected company
-- Random tweet about selected company by sentiment
-- Top 5 Most Engaging Tweets About selected company by sentiment
+- Random tweet about the selected company by sentiment
+- Top 5 Most Engaging Tweets about the selected company by sentiment
 
 
 ## Technologies Used
@@ -28,7 +29,8 @@ The dataset used in this project is sourced from Kaggle and contains tweets abou
 - Pandas
 - NLTK (for sentiment analysis)
 - Plotly Express (for interactive charts)
-- Wordcloud and Matplotlib Pyplot for words cloud visualization
+- Wordcloud and Matplotlib Pyplot for word cloud visualization
+- Yfinance
 
 ## Screenshots
 - ![image_1](./img/Screenshot_1.png)
@@ -37,31 +39,7 @@ The dataset used in this project is sourced from Kaggle and contains tweets abou
 - ![image_4](./img/Screenshot_4.png)
 - ![image_5](./img/Screenshot_5.png)
 - ![image_6](./img/Screenshot_6.png)
-## Setup and Installation
 
-1. Clone the repository
-   ```
-   git clone git@github.com:maria-snarava/portfolio-ml.git
-   ```
-
-2. Navigate to the project directory
-   ```
-   cd Dashbord
-   ```
-
-3. Install the required packages
-   ```
-   pip install -r requirements.txt
-   ```
-
-4. Run the Streamlit app
-   ```
-   streamlit run app.py
-   ```
-
-## Usage
-
-After running the app, navigate to the local URL provided by Streamlit (typically `http://localhost:8501`). Use the sidebar to interact with different features of the dashboard.
 
 ## Project Structure
 
