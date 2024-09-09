@@ -79,6 +79,7 @@ After running the app, navigate to the local URL provided by Streamlit (typicall
 
 ## Future Improvements
 
+- Add cache
 - Add more advanced NLP techniques
 - Implement real-time tweet fetching
 - Enhance UI/UX with more interactive elements
