@@ -46,8 +46,10 @@ def get_sentiment_count(company_data):
 
 @st.cache_data(persist=True)
 def load_data():
-    data_1 = pd.read_csv(DATA_URL_1)
-    data_2 = pd.read_csv(DATA_URL_2)
+    s = requests.get(DATA_URL_1).content
+    data_1 = pd.read_csv(io.StringIO(s.decode('utf-8')))
+    s = requests.get(DATA_URL_2).content
+    data_2 = pd.read_csv(io.StringIO(s.decode('utf-8')))
     data = pd.concat([data_1, data_2])
 
     return data
