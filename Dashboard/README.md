@@ -30,6 +30,13 @@ The dataset used in this project is sourced from Kaggle and contains tweets abou
 - Plotly Express (for interactive charts)
 - Wordcloud and Matplotlib Pyplot for words cloud visualization
 
+## Screenshots
+- ![image_1](./img/Screenshot_1.png)
+- ![image_2](./img/Screenshot_2.png)
+- ![image_3](./img/Screenshot_3.png)
+- ![image_4](./img/Screenshot_4.png)
+- ![image_5](./img/Screenshot_5.png)
+- ![image_6](./img/Screenshot_6.png)
 ## Setup and Installation
 
 1. Clone the repository
@@ -66,6 +73,8 @@ After running the app, navigate to the local URL provided by Streamlit (typicall
 │   └── prepared_data.csv
 ├── src/
 │   ├── data_processing.py
+├── img/
+│   ├── Screenshots
 ```
 
 ## Future Improvements
