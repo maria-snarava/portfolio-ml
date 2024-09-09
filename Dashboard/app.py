@@ -154,13 +154,13 @@ st.sidebar.header(':green[Part 1: All tweets analysis]')
 select = st.sidebar.selectbox('Visualization type', ['Histogram', 'Pie chart', 'Timeline'])
 tweet_count = get_tweets_count(data)
 st.markdown('### :blue[Number of tweets by company]')
-st.markdown(''':gray[This section allows you to explore the overall distribution of tweets through various graph types. A drop-down menu on sidebord offers three options for visualizing the data:
+st.markdown(''':gray[This section allows you to explore the overall distribution of tweets through various graph types. A drop-down menu on sidebord offers three options for visualizing the data:]
 
-**Histogram:** Shows the distribution of tweets over companies.
+:gray[**Histogram:** Shows the distribution of tweets over companies.]
 
-**Pie chart:** Displays the proportions of different sentiment categories.
+:gray[**Pie chart:** Displays the proportions of different sentiment categories.]
 
-**Timeline:** Tracks the volume of tweets over time. You can enable/disable information about every company by clicking on it's name on the right.]''')
+:gray[**Timeline:** Tracks the volume of tweets over time. You can enable/disable information about every company by clicking on it's name on the right.]''')
 if select == "Pie chart":
     tweets_by_company = px.pie(tweet_count, names = 'Company', values = 'Tweets')
 if select == "Timeline":
