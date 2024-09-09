@@ -1,8 +1,8 @@
-# Tweet Sentiment Analysis Dashboard for Top Companies 2019
+# Dashboard for Sentimental analysis of Tweets about major NASDAQ-listed companies in 2019 year
 
 ## Project Overview
 
-This project is a interactive dashboard for sentiment analysis of tweets about the top companies in 2019. The dashboard is built using Streamlit and Python, leveraging skills learned from the Coursera course ["Create Interactive Dashboards with Streamlit and Python"](https://www.coursera.org/projects/interactive-dashboards-streamlit-python).
+This project is interactive dashboard, that uses a dataset [Tweets about the Top Companies from 2015 to 2020](https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/data), featuring tweets related to major NASDAQ-listed companies, that was posted between 01-01-2019 and 31-12-2019. Sentiment analysis was performed using the NLTK library, along with a financial dictionary to better capture the nuances of financial terms. Engagement metrics were computed based on the number of likes, retweets, and comments each tweet received. You can find the preprocessing steps and code on the project’s [GitHub repository](https://github.com/maria-snarava/portfolio-ml).
 
 ## Data Source
 
@@ -10,12 +10,16 @@ The dataset used in this project is sourced from Kaggle and contains tweets abou
 
 [Tweets about the Top Companies from 2015 to 2020](https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/data)
 
-## Features
+### Key Features
+- Number of tweets by company plot (Histogram, pie chart, timeline)
+- Engagement plot (Histogram, pie chart, timeline)
+- Detailed analysis for selected company:
+- Number of Tweets by Sentiment for selected company (Histogram, pie chart, timeline)
+- Number of tweets about apple by sentiment vs stock price for selected company
+- Word cloud by sentiment for selected company
+- Random tweet about selected company by sentiment
+- Top 5 Most Engaging Tweets About selected company by sentiment
 
-- Sentiment analysis of tweets
-- Interactive visualizations
-- Company-wise sentiment breakdown
-- Trend analysis over time
 
 ## Technologies Used
 
