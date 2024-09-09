@@ -8,9 +8,12 @@ import yfinance as yf
 import io
 import requests
 
-
+#URL used for streamlit cloud
 DATA_URL_1 = "https://raw.githubusercontent.com/maria-snarava/portfolio-ml/main/Dashboard/data/prepared_data_1.csv"
 DATA_URL_2 = "https://raw.githubusercontent.com/maria-snarava/portfolio-ml/main/Dashboard/data/prepared_data_2.csv"
+#to read local files use this path
+DATA_PATH_1 = Path(data/prepared_data_1.csv)
+DATA_PATH_2 = Path(data/prepared_data_2.csv)
 COMPANY = ('apple', 'Google Inc', 'Amazon.com', 'Tesla Inc', 'Microsoft')
 TICKER = ('AAPL', 'GOOG', 'AMZN', 'TSLA', 'MSFT')
 def get_random_tweet():
@@ -53,6 +56,9 @@ def load_data():
     data_1 = pd.read_csv(io.StringIO(s.decode('utf-8')))
     s = requests.get(DATA_URL_2).content
     data_2 = pd.read_csv(io.StringIO(s.decode('utf-8')))
+    #Use this code to read from the local files
+    #data_1 = pd.read_csv(DATA_PATH_1)
+    #data_2 =  pd.read_csv(DATA_PATH_2)
     data = pd.concat([data_1, data_2])
 
     return data
