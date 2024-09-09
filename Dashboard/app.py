@@ -5,6 +5,9 @@ import plotly.express as px
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 import yfinance as yf
+import io
+import requests
+
 
 DATA_URL_1 = Path("https://drive.google.com/file/d/1W5oApdUDbM7dw_P5wzrTpTu8UPmHGv0u/view?usp=drive_link")
 DATA_URL_2 = Path("https://drive.google.com/file/d/1_j2MJYl4ubrys2Sg_yGEN6Q7B7e2SOGN/view?usp=drive_link")
