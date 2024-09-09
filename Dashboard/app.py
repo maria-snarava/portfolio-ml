@@ -12,8 +12,8 @@ import requests
 DATA_URL_1 = "https://raw.githubusercontent.com/maria-snarava/portfolio-ml/main/Dashboard/data/prepared_data_1.csv"
 DATA_URL_2 = "https://raw.githubusercontent.com/maria-snarava/portfolio-ml/main/Dashboard/data/prepared_data_2.csv"
 #to read local files use this path
-DATA_PATH_1 = Path(data/prepared_data_1.csv)
-DATA_PATH_2 = Path(data/prepared_data_2.csv)
+DATA_PATH_1 = Path('data/prepared_data_1.csv')
+DATA_PATH_2 = Path('data/prepared_data_2.csv')
 COMPANY = ('apple', 'Google Inc', 'Amazon.com', 'Tesla Inc', 'Microsoft')
 TICKER = ('AAPL', 'GOOG', 'AMZN', 'TSLA', 'MSFT')
 def get_random_tweet():
