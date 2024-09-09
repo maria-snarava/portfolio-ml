@@ -9,8 +9,8 @@ import io
 import requests
 
 
-DATA_URL_1 = Path("https://drive.google.com/file/d/1W5oApdUDbM7dw_P5wzrTpTu8UPmHGv0u/view?usp=drive_link")
-DATA_URL_2 = Path("https://drive.google.com/file/d/1_j2MJYl4ubrys2Sg_yGEN6Q7B7e2SOGN/view?usp=drive_link")
+DATA_URL_1 = Path("https://raw.githubusercontent.com/maria-snarava/portfolio-ml/main/Dashboard/data/prepared_data_1.csv")
+DATA_URL_2 = Path("https://raw.githubusercontent.com/maria-snarava/portfolio-ml/main/Dashboard/data/prepared_data_2.csv")
 COMPANY = ('apple', 'Google Inc', 'Amazon.com', 'Tesla Inc', 'Microsoft')
 TICKER = ('AAPL', 'GOOG', 'AMZN', 'TSLA', 'MSFT')
 def get_random_tweet():
