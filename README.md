@@ -2,7 +2,35 @@
 
 Welcome to my portfolio! This repository showcases projects demonstrating my skills and experience in various machine-learning techniques and applications.
 
-## Project 1: [Dashboard for Sentimental analysis of Tweets about major NASDAQ-listed companies in 2019 year](https://github.com/maria-snarava/portfolio-ml/blob/main/Dashboard)
+## [Project 1: Customer Churn Prediction With Logistic Regression](https://github.com/maria-snarava/portfolio-ml/blob/main/CustomerChurnPrediction.ipynb)
+
+This project demonstrates the process of predicting customer churn using machine learning techniques. Customer churn is when customers stop doing business with a company. 
+
+### Overview
+Customer churn, or customer attrition, is critical for many businesses. Predicting churn can help businesses take proactive steps to retain customers. I'll start with Logistic Regression as our baseline model. It's a great starting point as it's easy to implement and interpret. Using Logistic Regression, I've achieved an accuracy of 79.29% in predicting customer churn. This serves as baseline performance. Then, using Feature Engineering and Hyperparameter Tuning, I've improved this model. Then I experimented with more advanced algorithms with hyperparameter tuning to improve upon this baseline. Then I compared all model metrics and chosed the best one. By comparing all models to our Logistic Regression baseline, I'll be able to assess get the beter performance. The best model is XGBClassifier with an accuracy of 95.737% and a precision for a True value of 0.91 on the independent test set.
+
+### Key Features
+- Data preprocessing 
+- Feature engineering
+- Implementation of logistic regression using scikit-learn
+- Model evaluation
+- Hyperparameter Tuning
+- Decision Tree
+- XGBoost
+- Support Vector Machines
+
+### Results
+The best model is **XGBClassifier** with an **accuracy of 95.737%** and a **precision for a True value of 0.91** on the independent test set.
+
+### Technologies Used
+- Python
+- Pandas and NumPy for data manipulation
+- Scikit-learn for model building and evaluation
+- Matplotlib and Seaborn for data visualization
+- Imblearn
+- XGBoost
+
+## Project 2: [Dashboard for Sentimental analysis of Tweets about major NASDAQ-listed companies in 2019 year](https://github.com/maria-snarava/portfolio-ml/blob/main/Dashboard)
 
 ### Overview
 
@@ -11,40 +39,18 @@ This project uses a dataset [Tweets about the Top Companies from 2015 to 2020](h
 ### Key Features
 - Number of tweets by company plot (Histogram, pie chart, timeline)
 - Engagement plot (Histogram, pie chart, timeline)
-- Detailed analysis for selected company:
+- Detailed analysis for a selected company:
 - Number of Tweets by Sentiment for selected company (Histogram, pie chart, timeline)
-- Number of tweets about apple by sentiment vs stock price for selected company
+- Number of tweets about Apple by sentiment vs stock price for selected company
 - Word cloud by sentiment for selected company
-- Random tweet about selected company by sentiment
+- Random tweet about a selected company by sentiment
 - Top 5 Most Engaging Tweets About selected company by sentiment
 
 ### Technologies Used
 - Python
 - Pandas for data manipulation
 - Streamlit
--  NLTK library
-
-## [Project 2: Customer Churn Prediction With Logistic Regression](https://github.com/maria-snarava/portfolio-ml/blob/main/CustomerChurnPrediction.ipynb)
-
-This project demonstrates the application of logistic regression to predict customer churn in an e-commerce company.
-
-### Overview
-Customer churn, or customer attrition, is critical for many businesses. This project uses logistic regression to predict which customers will likely churn, allowing for targeted retention efforts.
-
-### Key Features
-- Data preprocessing 
-- Feature engineering and selection
-- Implementation of logistic regression using scikit-learn
-- Model evaluation and interpretation
-
-### Results
-The model achieved an accuracy of 82% on the test set, providing a solid baseline for churn prediction.
-
-### Technologies Used
-- Python
-- Pandas and NumPy for data manipulation
-- Scikit-learn for model building and evaluation
-- Matplotlib and Seaborn for data visualization
+- NLTK library
 
 ## Upcoming Projects
 - Recommender System for online store using deep learning and content-based filtering
