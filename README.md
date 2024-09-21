@@ -2,12 +2,12 @@
 
 Welcome to my portfolio! This repository showcases projects demonstrating my skills and experience in various machine-learning techniques and applications.
 
-## [Project 1: Customer Churn Prediction With Logistic Regression](https://github.com/maria-snarava/portfolio-ml/blob/main/CustomerChurnPrediction.ipynb)
+## [Project 1: Customer Churn Prediction](https://github.com/maria-snarava/portfolio-ml/blob/main/CustomerChurnPrediction.ipynb)
 
 This project demonstrates the process of predicting customer churn using machine learning techniques. Customer churn is when customers stop doing business with a company. 
 
 ### Overview
-Customer churn, or customer attrition, is critical for many businesses. Predicting churn can help businesses take proactive steps to retain customers. I'll start with Logistic Regression as our baseline model. It's a great starting point as it's easy to implement and interpret. Using Logistic Regression, I've achieved an accuracy of 79.29% in predicting customer churn. This serves as baseline performance. Then, using Feature Engineering and Hyperparameter Tuning, I've improved this model. Then I experimented with more advanced algorithms with hyperparameter tuning to improve upon this baseline. Then I compared all model metrics and chosed the best one. By comparing all models to our Logistic Regression baseline, I'll be able to assess get the beter performance. The best model is XGBClassifier with an accuracy of 95.737% and a precision for a True value of 0.91 on the independent test set.
+Customer churn, or customer attrition, is critical for many businesses. Predicting churn can help businesses take proactive steps to retain customers. I'll start with Logistic Regression as our baseline model. It's a great starting point as it's easy to implement and interpret. Using Logistic Regression, I've achieved an accuracy of 79.29% in predicting customer churn. This serves as baseline performance. Then, using Feature Engineering and Hyperparameter Tuning, I improved this model. Then I experimented with more advanced algorithms with hyperparameter tuning to improve this baseline. Then I compared all model metrics and chose the best one. By comparing all models to our Logistic Regression baseline, I can assess the better performance. The best model is XGBClassifier with an accuracy of 95.737% and a precision for a True value of 0.91 on the independent test set.
 
 ### Key Features
 - Data preprocessing 
