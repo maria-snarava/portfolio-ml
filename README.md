@@ -1,6 +1,6 @@
 # Data Scientist/Machine Learning Engineer Portfolio
 
-Welcome to my portfolio! This repository showcases projects demonstrating my skills and experience in various machine-learning techniques and applications.
+Welcome to my portfolio! This repository showcases projects demonstrating my skills and experience in data science and various machine-learning techniques and applications.
 
 ## [Project 1: Customer Churn Prediction](https://github.com/maria-snarava/portfolio-ml/blob/main/CustomerChurnPrediction.ipynb)
 
