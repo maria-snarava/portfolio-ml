@@ -1,4 +1,4 @@
-# Machine Learning Engineer Portfolio
+# Data Scientist/Machine Learning Engineer Portfolio
 
 Welcome to my portfolio! This repository showcases projects demonstrating my skills and experience in various machine-learning techniques and applications.
 
